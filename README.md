@@ -141,7 +141,7 @@ pip install uwsgi
 Django==3.2.2
 django-tinymce==3.3.0
 ipdb==0.13.7
-ipython==7.23.1
+#ipython==7.23.1
 psycopg2-binary==2.8.6
 django-jinja==2.7.0
 django-bootstrap4==3.0.1
