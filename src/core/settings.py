@@ -23,9 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-yahuh!7xiv#*e2en(-!^z+5942lu0nsbn=&j3z6y^e^u*gd2!t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+TEMPLATES_DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -112,7 +113,7 @@ TEMPLATES = [
                 "enabled": False,
             },
             "autoescape": True,
-            "auto_reload": DEBUG,
+            "auto_reload": TEMPLATES_DEBUG,
             "translation_engine": "django.utils.translation",
         }
     },
