@@ -1,0 +1,8 @@
+env/
+venv/
+__pycahe__/
+.idea/
+
+*.py[cod]
+settings_local.py
+*.sqlite3
